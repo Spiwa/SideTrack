@@ -8,7 +8,7 @@ SideTrack shows your playing track, album artwork and a waveform in a small desk
 
 ## Download and install
 
-Open the [**Releases** page](https://github.com/Spiwa/SideTrack/releases) and download **SideTrack-Setup-0.1.7-preview-x64.exe**. Run the installer, then launch SideTrack from the Start menu. The core player includes Python and its dependencies; you do not need to install Python separately.
+Open the [**Releases** page](https://github.com/Spiwa/SideTrack/releases) and download **SideTrack-Setup-0.1.8-preview-x64.exe**. Run the installer, then launch SideTrack from the Start menu. The core player includes Python and its dependencies; you do not need to install Python separately.
 
 This is an **unsigned preview for Windows x64**. It has been tested locally; testing on additional clean Windows computers is still needed. JRiver Media Center is required separately. SideTrack is an independent companion, not an official JRiver product.
 
@@ -25,10 +25,12 @@ Press **F1** or choose **Help** for the built-in offline guide.
 
 - Artwork-based color theme, diagonal gradient, rounded window and soft shadow.
 - Previous, Play/Pause, Stop and Next controls, with tooltips and hover highlighting.
+- Bar, Waveform and artwork-colored animated Color wave progress styles.
+- Clickable artwork ratings saved to JRiver.
 - Smooth, read-only waveform progress with consistent bar widths and spacing. Tracks without waveform metadata use a normal progress bar.
 - Player size, always-on-top and optional startup with Windows.
 - Manual PNG snapshots with square corners.
-- Optional automatic snapshots when a new track starts. These omit elapsed time and progress highlighting, while manual snapshots retain both.
+- Optional automatic snapshots when a new track starts. These omit elapsed time, total duration and progress highlighting; manual snapshots retain them.
 - Optional color saving to an existing JRiver custom text field. No fields are created automatically.
 - Optional Artist Radio and TrackInfo Last.fm helper integrations.
 

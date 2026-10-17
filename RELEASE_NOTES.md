@@ -1,24 +1,17 @@
-# SideTrack 0.1.7 Preview
+# SideTrack 0.1.8 Preview
 
-A compact desktop companion for JRiver Media Center on Windows x64.
+## New and improved
 
-## Included
+- Choose Bar, Waveform or Color wave in Settings > Appearance. The selection applies on Save; Waveform remains the default.
+- Color wave uses five artwork colors, a flat baseline and a larger circular playhead without glow. Time labels align with the baseline.
+- Color-wave animation follows each track's BPM at one cycle per eight beats, varying smoothly between BPM minus 20 and BPM. Tracks without BPM use gentle fixed animation. Playback progress stays independent.
+- Rate the displayed track using five stars at the artwork's bottom-right. Unrated tracks reveal stars on hover; click the current rating to clear it.
+- Artist Radio now starts immediately for the displayed track and no longer depends on JRiver's selected files. Perl, MCUtils and the smartlist fields are still required.
+- Automatic snapshots omit both time labels and played-progress highlighting. Manual snapshots retain them.
+- Fixed overlapping progress-style controls and help text in Settings.
 
-Artwork-derived themes with a diagonal gradient and shadow; responsive Play/Pause; a smooth read-only waveform; manual and optional per-track PNG snapshots; configurable connection and player preferences; built-in offline Help.
+## Install
 
-Automatic snapshots hide elapsed time and played-progress highlighting. Manual snapshots retain both. Waveforms use consistently spaced bars and fall back to a normal progress bar when metadata is missing.
+Download SideTrack-Setup-0.1.8-preview-x64.exe. Close the running player before upgrading; existing settings are preserved. JRiver Media Center is required separately. Python is bundled.
 
-## Setup
-
-JRiver Media Center is required separately. Enable its Media Network / MCWS server, then open SideTrack Settings (F2), enter the connection details, test and save. Python is bundled for the core player.
-
-Artist Radio and the TrackInfo helper are optional and require their own dependencies. Writing artwork colors to JRiver is off by default and only uses an existing custom text field.
-
-## Preview limitations
-
-- Windows x64 only; no macOS or Linux build.
-- Installer is unsigned.
-- Local installation, launch and uninstall checks passed; separate clean-computer testing remains outstanding.
-- SideTrack is freeware for personal or commercial use; see LICENSE.txt. Source code is maintained privately.
-
-For this release, download `SideTrack-Setup-0.1.7-preview-x64.exe`. Checksums are attached as `SHA256SUMS.txt`.
+This is an unsigned Windows x64 preview. Local automated checks passed; testing on a separate clean computer remains outstanding. SideTrack is freeware under LICENSE.txt; third-party components retain their licenses.

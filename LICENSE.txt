@@ -1,0 +1,32 @@
+SideTrack Freeware License
+Copyright (c) 2026 Spiwa. All rights reserved.
+
+1. Permission to use
+You may download SideTrack from the official Spiwa/SideTrack GitHub releases,
+install it on computers you own or are authorized to use, and use it without
+charge for personal or commercial purposes. You may make backup copies for
+your own use. This permission is non-exclusive and does not transfer ownership.
+
+2. Restrictions
+Except as required by applicable law or expressly permitted in writing by the
+copyright holder, you may not modify SideTrack, distribute or redistribute it,
+sell it, sublicense it, or distribute modified versions. Share a link to the
+official download instead of uploading copies. No source-code license is granted.
+
+3. Third-party components
+These terms cover SideTrack's own code and materials. Third-party components
+remain subject to their respective licenses, which take precedence for those
+components. Their notices and license texts accompany the installation.
+JRiver Media Center is a separate product and requires its own license.
+
+4. Warranty and liability
+SideTrack is provided "as is", without warranties of any kind, to the extent
+permitted by applicable law. To the extent permitted by applicable law, the
+copyright holder is not liable for losses or damages arising from its use.
+Nothing in these terms excludes rights or liabilities that cannot legally be
+excluded, including mandatory consumer rights.
+
+5. Other rights
+All rights not expressly granted are reserved. These terms do not restrict
+permissions that applicable law requires or rights granted by third-party
+licenses. Permission requests may be made through the official GitHub repository.
